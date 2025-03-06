@@ -16,3 +16,7 @@ def echo_tool(message: str) -> str:
 def echo_prompt(message: str) -> str:
     """Create an echo prompt"""
     return f"Please process this message: {message}"
+
+# Run the MCP server
+if __name__ == "__main__":
+    mcp.run()
